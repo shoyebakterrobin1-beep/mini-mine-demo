@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>⚙️ Admin Panel</h2>
+
+    <label>Miner Price</label>
+    <input type="number" id="price" />
+
+    <label>Miner Power</label>
+    <input type="number" id="power" />
+
+    <label>Mining Speed</label>
+    <input type="number" step="0.1" id="speed" />
+
+    <label>Max Miners</label>
+    <input type="number" id="max" />
+
+    <button onclick="saveConfig()">Save (Demo)</button>
+
+    <p class="note">
+      ⚠️ Demo mode: values will not save on server.<br>
+      Edit <code>config.json</code> manually to apply changes.
+    </p>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
