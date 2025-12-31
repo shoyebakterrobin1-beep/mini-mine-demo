@@ -1,0 +1,6 @@
+{
+  "miner_price": 100,
+  "miner_power": 1,
+  "mining_speed": 1,
+  "max_miners": 5
+}
